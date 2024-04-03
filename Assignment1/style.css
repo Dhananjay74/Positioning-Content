@@ -139,28 +139,71 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 32px;
+}
+/* clearfix */
+.clearfix::before,.clearfix::after{
+  content: "";
+  display: table;
+}
+.clearfix::after{
+  clear: both;
 }
 /* header */
 .header {
     background-color: lightgray;
-    padding: 24px 0;
-    font-size: 0;
+    height: 100px;
+    line-height: 100px;
 }
-.brand img {
-    width: 250px;
-}
-.brand, .nav {
-    display: inline-block;
-    vertical-align: middle;
+.brand {
+  float: left;
 }
 .nav {
-   width: calc(100% - 250px);
-   font-size: 16px;
-   text-align: right;
+  float: right;
+}
+.brand img {
+  width: 250px;
+  vertical-align: middle;
 }
 .nav a {
   color: black;
   margin-right: 20px;
   font-weight: 600;
+  text-decoration: none;
+}
+/* Article */
+.section {
+  padding: 60px 0;
+  background-color: #e9ecfc;
+}
+.article-img {
+ height: 300px;
+ width: 100%;
+ object-fit: cover;
+}
+.col {
+  float: left;
+  width: 25%;
+  margin: 0 4%;
+}
+p {
+  font-size: 20px;
+  margin-top: 16px;
+  line-height: 1.7;
+}
+/* footer */
+.footer {
+  background-color: lightgray;
+  padding: 32px 0;
+}
+.footer small {
+  float: left;
+}
+.footer nav {
+  float: right;
+}
+.footer a {
+  color: black;
+  margin-right: 20px;
   text-decoration: none;
 }

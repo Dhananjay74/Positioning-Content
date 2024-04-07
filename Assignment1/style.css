@@ -130,30 +130,31 @@ table {
 
 /* custom style */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    line-height: 1.5;
-    font-size: 16px;
+  line-height: 1.5;
+  font-size: 16px;
 }
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
 }
 /* clearfix */
-.clearfix::before,.clearfix::after{
+.clearfix::before,
+.clearfix::after {
   content: "";
   display: table;
 }
-.clearfix::after{
+.clearfix::after {
   clear: both;
 }
 /* header */
 .header {
-    background-color: lightgray;
-    height: 100px;
-    line-height: 100px;
+  background-color: lightgray;
+  height: 100px;
+  line-height: 100px;
 }
 .brand {
   float: left;
@@ -177,9 +178,9 @@ body {
   background-color: #e9ecfc;
 }
 .article-img {
- height: 300px;
- width: 100%;
- object-fit: cover;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
 }
 .col {
   float: left;

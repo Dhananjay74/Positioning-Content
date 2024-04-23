@@ -145,7 +145,7 @@ body {
   padding: 0 32px;
   background-color: white;
 }
-/*clearfix */
+
 /* clearfix */
 .clearfix::before,
 .clearfix::after {

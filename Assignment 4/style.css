@@ -178,6 +178,7 @@ body {
 }
 .section-header {
   margin-bottom: 40px;
+  text-align: center;
 }
 .section-header h3 {
   font-size: 32px;
@@ -187,6 +188,9 @@ body {
 .section-header p {
   font-size: 16px;
   color: azure;
+}
+strong {
+  text-transform: uppercase;
 }
 /* header */
 .header {
@@ -251,12 +255,42 @@ body {
   width: 140px;
   height: 140px;
   border-radius: 50%;
+  object-fit: cover;
 }
 .team-item h4 {
   color: #fff;
   font-size: 24px;
-margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 .team-item p {
   color: #82a5d1;
+}
+/* blog*/
+.blog .section-header h3 {
+  color: #5385c1;
+}
+.blog .section-header p {
+  color: #777;
+}
+.col-1-2 {
+  width: 47%;
+  margin: 1.5%;
+  float: left;
+}
+.blog img {
+  width: 100%;
+  margin-bottom: 24px;
+}
+/* footer */
+.footer {
+  padding: 24px;
+  color: #777;
+  border-top: 1px solid #7777;
+}
+.footer nav {
+  float: right;
+}
+.footer a {
+  color: #5385c1;
+  margin-left: 24px;
 }
